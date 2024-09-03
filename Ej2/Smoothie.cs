@@ -6,6 +6,10 @@ public class Smoothie
 {
     private ArrayList ingredientes = new ArrayList();
     private string nombre;
+	public string Nombre{
+	get{return nombre}
+	set{nombre=value}
+}
     public ArrayList AddIngredient(Ingrediente ing)
     {
         if (!ingredientes.Contains(ing))
@@ -30,7 +34,7 @@ public class Smoothie
 
     public string GetFullName()
     {
-        string texto = "";
+        string texto = nombre;
         foreach (Ingrediente VAR in ingredientes)
         {
             texto += VAR.Nombre+" ";

@@ -1,5 +1,5 @@
 namespace Ej2;
-
+using System.Collections;
 public class Ingrediente
 {
     private string nombre;
@@ -17,4 +17,9 @@ public class Ingrediente
         get { return costo; }
         set { costo = value; }
     }
+	public ArrayList Ingrediente(){
+	ArrayList lista=new ArrayList();
+	lista.Add(nombre)
+	lista.Add(costo)
+}
 }
