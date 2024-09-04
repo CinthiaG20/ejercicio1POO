@@ -6,7 +6,7 @@ public class Smoothie
 {
     private ArrayList ingredientes = new ArrayList();
     private string nombre;
-	public string Nombre
+    public string Nombre
     {
         get { return nombre;}
         set { nombre = value; }

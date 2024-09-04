@@ -17,7 +17,7 @@ public class Ingrediente
         get { return costo; }
         set { costo = value; }
     }
-	public Ingrediente(string NOMBRE, double COSTO)
+    public Ingrediente(string NOMBRE, double COSTO)
     {
         Nombre = NOMBRE;
         Costo = COSTO;
