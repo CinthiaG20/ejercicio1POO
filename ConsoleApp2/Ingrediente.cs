@@ -17,9 +17,9 @@ public class Ingrediente
         get { return costo; }
         set { costo = value; }
     }
-	public ArrayList Ingrediente(){
-	ArrayList lista=new ArrayList();
-	lista.Add(nombre)
-	lista.Add(costo)
-}
+	public Ingrediente(string NOMBRE, double COSTO)
+    {
+        Nombre = NOMBRE;
+        Costo = COSTO;
+    }
 }
