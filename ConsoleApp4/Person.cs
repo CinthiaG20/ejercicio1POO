@@ -38,6 +38,14 @@ public class Person
         FirstProgenitor = firstProgenitor;
         SecondProgenitor = secondProgenitor;
     }
-    
-    
+
+    public string GetName()
+    {
+        return this.name;
+    }
+
+    public string ShowFamilyTree()
+    {
+        return $"{this.name} es {this.rol}.";
+    }
 }
